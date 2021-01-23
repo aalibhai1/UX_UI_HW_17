@@ -12,7 +12,7 @@ h2{
     font-weight: 700;
 }
 
-p{
+.paragraph{
     margin-top: 10px;
 }
 
@@ -86,6 +86,7 @@ button{
    max-width: 100%;
    border-radius: 25%;
    height: auto;
+   
 }
 .profile_info{
      
@@ -152,7 +153,7 @@ button{
 
 .project_item1{
     padding: 20px;
-    
+    text-align: center;
     flex-grow: 1;
     color: white;
     background-image: url(../images/swiping\ screen.png);
@@ -166,7 +167,8 @@ button{
 
 .project_item2{
     padding: 20px;
-    
+    padding-right: 20px;
+    text-align: center;
     background-image: url(../images/Screen\ Shot\ 2021-01-13\ at\ 5.13.34\ PM.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -186,7 +188,7 @@ button{
     background-size: contain;
     flex-grow: 2;
     flex-wrap: wrap;
-    color: black;
+    color: white;
     background-position: center;
     background-color: #cccccc;
     
@@ -207,6 +209,7 @@ footer{
 footer .fa{
     flex-grow: 1;
     text-align: right;
+    color: black;
    
 }
 
@@ -216,7 +219,20 @@ footer p{
 }
 
 .copyright{
+    align-items: baseline;
     text-align: center;
-    flex-grow: 1;
-    padding-left: 55px;
+    flex-grow: 2;
+    font-size: 12px;
+    padding-top: 50px;
+  
+}
+
+
+
+.footer_name{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    
 }
